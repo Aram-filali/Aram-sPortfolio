@@ -9,10 +9,10 @@ const Header = () => {
 
   return (
     <div className='w-full px-[8%] md:px-[12%] min-h-screen flex items-center justify-center py-20 lg:py-0'>
-      <div className='w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center'>
+      <div className='w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-8 items-start lg:items-center'>
 
         {/* Text Content - Order 2 on mobile, 1 on desktop */}
-        <div className='space-y-6 text-center lg:text-left order-2 lg:order-1'>
+        <div className='space-y-6 text-center lg:text-left order-2 lg:order-1 relative z-10'>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -85,7 +85,7 @@ const Header = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className='relative flex justify-center lg:justify-end order-1 lg:order-2'
+          className='relative flex justify-center lg:justify-end order-1 lg:order-2 z-0'
         >
           {/* Main Photo Container */}
           <div className='relative'>
