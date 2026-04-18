@@ -1,0 +1,382 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": "About Me",
+      "projects": "Projects",
+      "experience": "Experience",
+      "technologies": "Technologies",
+      "certifications": "Certifications",
+      "contact": "Contact me"
+    },
+    "header": {
+      "greeting": "Hello, I am",
+      "name": "Aram Filali",
+      "title": "Software Engineering Student",
+      "description": "Software Engineering student specializing in Full-Stack development and artificial intelligence, seeking a 2-month software development internship starting June 2026. Passionate about modern architectures, generative AI integration, and SaaS platform development.",
+      "location": "Monastir, Tunisia",
+      "contactMe": "Contact me",
+      "linkedIn": "My CV"
+    },
+    "about": {
+      "bioFetch": "Fetch bio info",
+      "bioLabel": "$ bio --fetch",
+      "bioDescription": "Show my information",
+      "fullName": "Full Name: Aram Filali",
+      "location": "Location: Monastir, Tunisia",
+      "status": "Status: Software Engineering Student (ISIMA 2025-Present)",
+      "background": "Background: BS Software Engineering (ISIMM 2022-2025)",
+      "availability": "Status: Available for remote opportunities",
+      "skillsFetch": "View tech stack",
+      "skillsLabel": "$ skills --tech-stack",
+      "skillsDescription": "See my skills",
+      "languages": "Languages: C++ | Python | JavaScript | TypeScript | PHP | SQL",
+      "webDev": "Web Dev: Next.js | React | NestJS | Node.js | FastAPI | REST APIs",
+      "aiMl": "AI/ML: LangChain | BERT | RAG | Prompt Engineering | LLMs",
+      "databases": "Databases: MongoDB | PostgreSQL | MySQL | Firebase",
+      "cloudDevops": "Cloud & DevOps: Git | Docker | Vercel | Render",
+      "contactInfo": "Contact info",
+      "contactLabel": "$ contact --info",
+      "contactDescription": "My contact details",
+      "email": "Email: aramfilali.19@gmail.com",
+      "phone": "Phone: +216 24 022 910",
+      "linkedInInfo": "LinkedIn: linkedin.com/in/aram-filali-0b8217287",
+      "github": "GitHub: github.com/Aram-filali",
+      "languagesFetch": "View languages",
+      "languagesLabel": "$ languages --proficiency",
+      "languagesDescription": "Languages spoken",
+      "arabic": "Arabic: Native",
+      "englishProf": "English: B2 Upper-intermediate",
+      "frenchProf": "French: B2 Upper-intermediate",
+      "clearLabel": "$ clear",
+      "clearDescription": "Clear terminal",
+      "commands": "COMMANDS",
+      "allInfo": "Show all info",
+      "allInfoLabel": "$ info --all"
+    },
+    "contact": {
+      "title": "Get in touch",
+      "subtitle": "Have a project in mind? Let's collaborate! Feel free to reach out to discuss opportunities.",
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Form Submitted Successfully",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "messageLabel": "Message"
+    },
+    "footer": {
+      "copyright": "All rights reserved.",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "skills": {
+      "title": "Technologies I use",
+      "description": "Here are the technologies and tools I work with"
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "showMore": "Show More Details",
+      "showLess": "Show Less Details",
+      "keyAchievements": "Key Achievements:",
+      "showKeyAchievements": "Show Key Achievements",
+      "hideKeyAchievements": "Hide Key Achievements"
+    },
+    "projects": {
+      "title": "My Projects",
+      "description": "The following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+      "showMore": "Show More Details",
+      "showLess": "Show Less Details",
+      "seeMore": "See More Projects",
+      "seeLess": "See Less Projects",
+      "howItWorks": "How it works:"
+    },
+    "certifications": {
+      "title": "Certifications",
+      "description": "Professional certifications and achievements",
+      "professionalCertificate": "Professional Certificate",
+      "november2025": "November 2025",
+      "viewCertificate": "View Certificate"
+    },
+    "projectsData": [
+      {
+        "title": "Estatias - Multi-Tenant SaaS Site Generator",
+        "description": "Enables property managers to launch their own booking websites in minutes, automating reservations, payments, and marketing without the expensive OTA commissions."
+      },
+      {
+        "title": "AI Sales Assistant - Intelligent Chatbot & Lead Capture",
+        "description": "Advanced RAG chatbot that automatically captures and qualifies leads through intelligent conversation, integrating semantic search, NLP, and real-time scoring without manual intervention."
+      },
+      {
+        "title": "Syntra.ai - Meeting Intelligence Platform",
+        "description": "Transforms meeting recordings into actionable intelligence, automatically transcribing, analyzing, and extracting decisions, tasks, and key insights without manual effort."
+      },
+      {
+        "title": "Hirix - Career Intelligence & Interview Prep Platform",
+        "description": "Empowers job seekers to land roles faster through AI-powered CV analysis, real-time interview simulation, and intelligent application tracking, transforming the entire job search journey."
+      },
+      {
+        "title": "Sentrik - AI Feedback Analytics Platform",
+        "description": "SaaS platform transforming customer feedback into actionable insights via NLP, automating sentiment analysis and trend extraction without manual effort."
+      }
+    ],
+    "experienceData": {
+      "title": "Full-Stack Developer",
+      "company": "ONRTECH - Estatias Multi-Tenant SaaS Site Generator",
+      "location": "France, Remote",
+      "dateRange": "Jan 2026 - May 2026",
+      "description": "Engineered a SaaS platform that lets property managers launch booking websites instantly, handling payments, bookings, and calendar syncing automatically, while saving hosts 15-30% on OTA commissions.",
+      "achievements": [
+        "Architected 9 NestJS microservices (API Gateway, Site Generator, Booking ..) coordinating core platform features",
+        "Built dynamic website generator using EJS templates + Next.js that deploys customized sites on-demand with automatic port allocation and lifecycle management",
+        "Implemented AI-powered SEO module generating property descriptions 10x faster, integrated with real-time calendar synchronization (node-ical + Puppeteer)",
+        "Deployed Stripe Connect infrastructure enabling automatic payment processing and revenue distribution to hosts with full financial tracking",
+        "Built secure multi-tenant authentication (JWT + Firebase) with role-based access controls ensuring property isolation and data security"
+      ]
+    },
+    "projectsDetails": [
+      {
+        "id": 0,
+        "details": [
+          "Hosts sign up → Platform generates a custom Next.js website instantly",
+          "9 microservices handle payments (Stripe), bookings, calendar syncing, and authentication",
+          "Real-time synchronization keeps availability updated across platforms",
+          "AI-powered engine generates SEO-optimized property listings automatically",
+          "Multi-tenant architecture ensures data security and fast, isolated deployments"
+        ]
+      },
+      {
+        "id": 1,
+        "details": [
+          "RAG pipeline powered by FAISS vector database achieving 95%+ accuracy in lead extraction and intent recognition",
+          "Multi-tenant architecture with JWT authentication and 115+ unit tests enforcing SOLID principles and code quality",
+          "NLP-driven conversation engine automatically captures contact info and qualification data in real-time without forms",
+          "Real-time lead scoring system analyzes conversation patterns to identify high-intent prospects automatically",
+          "Production-grade deployment: FastAPI backend, React 18 frontend, PostgreSQL 15 with seamless Alembic migrations"
+        ]
+      },
+      {
+        "id": 2,
+        "details": [
+          "Users connect Zoom → Platform automatically captures and transcribes all meetings with 85%+ accuracy",
+          "4 specialized LLM agents work in parallel: summarization, action extraction, decision tracking, and Q&A generation",
+          "Zoom OAuth 2.0 integration with automatic token refresh ensures seamless authentication and secure data sync",
+          "Celery/Redis pipeline enables asynchronous processing allowing meetings up to 4 hours to be analyzed in minutes",
+          "Participants automatically receive email alerts with their action items and meeting summaries post-call"
+        ]
+      },
+      {
+        "id": 3,
+        "details": [
+          "Candidates upload resumes → Platform instantly generates AI-powered profile critiques and personalizes interview simulations",
+          "8+ coordinated microservices handle CV analysis, profile optimization, HR/technical interview simulations with real-time AI feedback",
+          "Multi-step application dashboard tracks 100+ job applications with conversion metrics, status management, and follow-up reminders",
+          "Implemented 30+ RESTful endpoints with JWT authentication, bcrypt security, rate limiting, and anti-brute-force mechanisms",
+          "MongoDB with nested Mongoose schemas enables complex relationships between users, applications, CVs, and interview results"
+        ]
+      },
+      {
+        "id": 4,
+        "details": [
+          "Users upload CSV/Excel → AI pipeline automatically processes feedback in real-time with zero manual intervention",
+          "Multilingual BERT engine detects 3 sentiments (Positive/Neutral/Negative) with simultaneous keyword extraction from customer feedback",
+          "Freemium model: anonymous users test the tool, login unlocks unlimited history and unlimited analysis capabilities",
+          "Multi-tenant architecture with JWT email/password authentication secured to protect sensitive customer data and privacy",
+          "Historical dashboard enables teams to track sentiment trends over time and identify recurring patterns in feedback data"
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "projects": "Projets",
+      "experience": "Expérience",
+      "technologies": "Technologies",
+      "certifications": "Certifications",
+      "contact": "Me contacter"
+    },
+    "header": {
+      "greeting": "Bonjour, je suis",
+      "name": "Aram FILALI",
+      "title": "Étudiante Ingénieure en Génie Logiciel",
+      "description": "Étudiante ingénieure spécialisée en développement Full-Stack et intelligence artificielle, à la recherche d'un stage de 2 mois en développement logiciel à partir de juin 2026. Passionnée par les architectures modernes, l'intégration d'IA générative et le développement de plateformes SaaS.",
+      "location": "Monastir, Tunisie",
+      "contactMe": "Me contacter",
+      "linkedIn": "Mon CV"
+    },
+    "about": {
+      "bioFetch": "Récupérer les infos bio",
+      "bioLabel": "$ bio --fetch",
+      "bioDescription": "Afficher mes informations",
+      "fullName": "Nom Complet: FILALI Aram",
+      "location": "Localisation: Monastir, Tunisie",
+      "status": "Statut: Étudiante Ingénieure en Génie Logiciel (ISIMM 2025-Présent)",
+      "background": "Formation: Génie Logiciel et Systèmes d'information (ISIMa 2022-2025)",
+      "availability": "Statut: Disponible pour des opportunités de stage à distance",
+      "skillsFetch": "Voir la pile technologique",
+      "skillsLabel": "$ skills --tech-stack",
+      "skillsDescription": "Voir mes compétences",
+      "languages": "Langages: C++ | Python | JavaScript | TypeScript | PHP | SQL",
+      "webDev": "Dev Web: Next.js | React | NestJS | Node.js | FastAPI | REST APIs",
+      "aiMl": "IA/ML: LangChain | BERT | RAG | Prompt Engineering | LLMs",
+      "databases": "Bases de données: MongoDB | PostgreSQL | MySQL | Firebase",
+      "cloudDevops": "Cloud & DevOps: Git | Docker | Vercel | Render | AWS",
+      "contactInfo": "Infos de contact",
+      "contactLabel": "$ contact --info",
+      "contactDescription": "Mes coordonnées",
+      "email": "Email: aramfilali.19@gmail.com",
+      "phone": "Téléphone: +216 24 022 910",
+      "linkedInInfo": "LinkedIn: linkedin.com/in/aram-filali-0b8217287",
+      "github": "GitHub: github.com/Aram-filali",
+      "languagesFetch": "Voir les langues",
+      "languagesLabel": "$ languages --proficiency",
+      "languagesDescription": "Langues parlées",
+      "arabic": "Arabe: Langue maternelle",
+      "englishProf": "Anglais: B2 Courant",
+      "frenchProf": "Français: B2 Courant",
+      "clearLabel": "$ clear",
+      "clearDescription": "Effacer le terminal",
+      "commands": "COMMANDES",
+      "allInfo": "Afficher tous les infos",
+      "allInfoLabel": "$ info --all"
+    },
+    "contact": {
+      "title": "Contactez-moi",
+      "subtitle": "Vous avez un projet en tête? Collaborons! N'hésitez pas à me contacter pour discuter d'opportunités.",
+      "name": "Votre Nom",
+      "email": "Votre Email",
+      "message": "Votre Message",
+      "send": "Envoyer",
+      "sending": "Envoi...",
+      "success": "Formulaire Envoyé avec Succès",
+      "nameLabel": "Nom",
+      "emailLabel": "Email",
+      "messageLabel": "Message"
+    },
+    "footer": {
+      "copyright": "Tous droits réservés.",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "skills": {
+      "title": "Technologies que j'utilise",
+      "description": "Voici les technologies et outils avec lesquels je travaille"
+    },
+    "experience": {
+      "title": "Expérience Professionnelle",
+      "showMore": "Plus de détails",
+      "showLess": "Moins de détails",
+      "keyAchievements": "Réalisations clés:",
+      "showKeyAchievements": "Afficher les réalisations",
+      "hideKeyAchievements": "Masquer les réalisations"
+    },
+    "projects": {
+      "title": "Mes Projets",
+      "description": "Les projets suivants présentent mes compétences et expérience à travers des exemples concrets. Chaque projet est brièvement décrit avec des liens vers les dépôts de code et les démos en direct. Cela reflète ma capacité à résoudre des problèmes complexes, travailler avec différentes technologies et gérer des projets efficacement.",
+      "showMore": "Plus de détails",
+      "showLess": "Moins de détails",
+      "seeMore": "Voir plus de projets",
+      "seeLess": "Voir moins de projets",
+      "howItWorks": "Fonctionnement:"
+    },
+    "certifications": {
+      "title": "Certifications",
+      "description": "Certificats professionnels et réalisations",
+      "professionalCertificate": "Certificat Professionnel",
+      "november2025": "Novembre 2025",
+      "viewCertificate": "Voir le certificat"
+    },
+    "projectsData": [
+      {
+        "title": "Estatias - Générateur SaaS Multi-Locataires",
+        "description": "Permet aux gestionnaires de propriétés de lancer leurs propres sites web de réservation en minutes, automatisant les réservations, les paiements et le marketing sans les commissions OTA coûteuses."
+      },
+      {
+        "title": "Assistant de Ventes IA - Chatbot Intelligent & Capture de Leads",
+        "description": "Chatbot RAG avancé qui capture et qualifie automatiquement les leads par conversation intelligente, intégrant la recherche sémantique, le NLP et l'évaluation en temps réel sans intervention manuelle."
+      },
+      {
+        "title": "Syntra.ai - Plateforme d'Intelligence Réunion",
+        "description": "Transforme les enregistrements de réunion en intelligence exploitable, transcrivant, analysant et extrayant automatiquement les décisions, tâches et insights sans intervention manuelle."
+      },
+      {
+        "title": "Hirix - Plateforme d'Intelligence Carrière & Préparation Interview",
+        "description": "Permet aux demandeurs d'emploi d'obtenir des postes plus rapidement grâce à l'analyse IA de CV, la simulation d'interviews en temps réel et le suivi intelligent des candidatures."
+      },
+      {
+        "title": "Sentrik - Plateforme d'Analyse IA de Feedbacks",
+        "description": "Plateforme SaaS transformant les retours clients en insights exploitables via NLP, automatisant l'analyse de sentiment et l'extraction de tendances sans intervention manuelle."
+      }
+    ],
+    "experienceData": {
+      "title": "Développeur Full-Stack",
+      "company": "ONRTECH - Générateur SaaS Multi-Locataires Estatias",
+      "location": "France, Télétravail",
+      "dateRange": "Jan 2026 - Mai 2026",
+      "description": "Conçu une plateforme SaaS permettant aux gestionnaires de propriétés de lancer des sites de réservation instantanément, automatisant les paiements, les réservations et la synchronisation calendaire, tout en réduisant les commissions OTA de 15-30% pour les hôtes.",
+      "achievements": [
+        "Architecture de 9 microservices NestJS (Passerelle API, Générateur de sites, Réservation ..) coordonnant les fonctionnalités principales",
+        "Création d'un générateur de sites dynamiques utilisant les templates EJS + Next.js déployant des sites personnalisés à la demande avec allocation de port automatique",
+        "Implémentation d'un module SEO alimenté par l'IA générant les descriptions de propriétés 10x plus rapidement, intégré avec la synchronisation calendaire en temps réel",
+        "Déploiement de l'infrastructure Stripe Connect permettant le traitement automatique des paiements et la distribution des revenus aux hôtes",
+        "Construction d'une authentification multi-locataire sécurisée (JWT + Firebase) avec contrôles d'accès basés sur les rôles garantissant l'isolation des propriétés"
+      ]
+    },
+    "projectsDetails": [
+      {
+        "id": 0,
+        "details": [
+          "Les hôtes s'inscrivent → La plateforme génère un site Web personnalisé Next.js instantanément",
+          "9 microservices gèrent les paiements (Stripe), les réservations, la synchronisation calendaire et l'authentification",
+          "La synchronisation en temps réel maintient la disponibilité mise à jour sur toutes les plateformes",
+          "Le moteur alimenté par l'IA génère automatiquement les annonces de propriétés optimisées pour le référencement",
+          "L'architecture multi-locataire assure la sécurité des données et les déploiements rapides et isolés"
+        ]
+      },
+      {
+        "id": 1,
+        "details": [
+          "Pipeline RAG alimenté par la base de données vectorielle FAISS atteignant une précision de 95%+ dans l'extraction des pistes et la reconnaissance d'intentionnalité",
+          "Architecture multi-locataire avec authentification JWT et 115+ tests unitaires appliquant les principes SOLID et la qualité du code",
+          "Moteur de conversation alimenté par le NLP capturant automatiquement les informations de contact et les données de qualification en temps réel sans formes",
+          "Système de notation des pistes en temps réel analysant les modèles de conversation pour identifier automatiquement les prospects à haut degré d'intention",
+          "Déploiement de qualité production: backend FastAPI, frontend React 18, PostgreSQL 15 avec migrations Alembic transparentes"
+        ]
+      },
+      {
+        "id": 2,
+        "details": [
+          "Les utilisateurs connectent Zoom → La plateforme capture et transcrit automatiquement toutes les réunions avec une précision de 85%+",
+          "4 agents LLM spécialisés travaillent en parallèle: résumé, extraction d'actions, suivi des décisions et génération de questions-réponses",
+          "Intégration OAuth 2.0 Zoom avec actualisation automatique du jeton assurant une authentification transparente et une synchronisation sécurisée des données",
+          "Pipeline Celery/Redis permettant un traitement asynchrone autorisant les réunions jusqu'à 4 heures à être analysées en minutes",
+          "Les participants reçoivent automatiquement des alertes par e-mail avec leurs actions et les résumés de réunion après l'appel"
+        ]
+      },
+      {
+        "id": 3,
+        "details": [
+          "Les candidats téléchargent leur CV → La plateforme génère instantanément des critiques de profil alimentées par l'IA et personnalise les simulations d'entretien",
+          "8+ microservices coordonnés gèrent l'analyse des CV, l'optimisation des profils, les simulations d'entretien RH/techniques avec rétroaction IA en temps réel",
+          "Tableau de bord d'application en plusieurs étapes suivant 100+ candidatures avec métriques de conversion, gestion du statut et rappels de suivi",
+          "Implémentation de 30+ points de terminaison RESTful avec authentification JWT, sécurité bcrypt, limitation de débit et mécanismes anti-brute-force",
+          "MongoDB avec schémas Mongoose imbriqués permettant des relations complexes entre les utilisateurs, les candidatures, les CV et les résultats d'entretien"
+        ]
+      },
+      {
+        "id": 4,
+        "details": [
+          "Les utilisateurs téléchargent un fichier CSV/Excel → Le pipeline IA traite automatiquement les commentaires en temps réel sans intervention manuelle",
+          "Le moteur BERT multilingue détecte 3 sentiments (Positif/Neutre/Négatif) avec extraction simultanée de mots-clés des commentaires des clients",
+          "Modèle freemium: les utilisateurs anonymes testent l'outil, la connexion déverrouille l'historique illimité et les capacités d'analyse illimitées",
+          "Architecture multi-locataire avec authentification sécurisée par e-mail/mot de passe JWT protégeant les données sensibles des clients",
+          "Le tableau de bord historique permet aux équipes de suivre les tendances de sentiment au fil du temps et d'identifier les modèles récurrents des commentaires"
+        ]
+      }
+    ]
+  }
+}
