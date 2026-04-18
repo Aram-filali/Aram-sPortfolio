@@ -170,7 +170,7 @@ const About = ({ isDarkMode }) => {
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className='p-4 lg:p-6 space-y-3 bg-gray-50 dark:bg-[#0a0e1a] border-b lg:border-b-0 lg:border-r border-gray-200 dark:border-cyan-500/20'
+            className='p-3 lg:p-6 space-y-2 lg:space-y-3 bg-gray-50 dark:bg-[#0a0e1a] border-b lg:border-b-0 lg:border-r border-gray-200 dark:border-cyan-500/20'
           >
             <h3 className='text-[#1a365d] dark:text-cyan-300 text-lg font-bold tracking-wider mb-4'>
               {t('about.commands')}
@@ -193,7 +193,7 @@ const About = ({ isDarkMode }) => {
                     }
                   }}
                   disabled={cmd.id !== 'all' && cmd.id !== 'clear' && executedCommands.includes(cmd.id)}
-                  className={`w-full text-left p-2 rounded-lg border transition-all duration-300 group ${cmd.id !== 'all' && cmd.id !== 'clear' && executedCommands.includes(cmd.id)
+                  className={`w-full text-left p-2 rounded-lg border transition-all duration-300 group text-xs lg:text-sm ${cmd.id !== 'all' && cmd.id !== 'clear' && executedCommands.includes(cmd.id)
                       ? 'bg-gray-100 dark:bg-[#0a0e1a] border-gray-300 dark:border-gray-700 opacity-50 cursor-not-allowed'
                       : cmd.id === 'clear'
                         ? 'bg-red-500/10 border-red-500/30 hover:bg-red-500/20'
@@ -240,7 +240,7 @@ const About = ({ isDarkMode }) => {
             </div>
 
             {/* Terminal Content */}
-            <div className='p-4 font-mono text-sm space-y-1 h-[500px] overflow-y-auto scrollbar-hide'>
+            <div className='p-4 font-mono text-sm space-y-1 h-[300px] sm:h-[400px] lg:h-[500px] overflow-y-auto scrollbar-hide'>
               <style jsx>{`
                 .scrollbar-hide::-webkit-scrollbar {
                   display: none;
