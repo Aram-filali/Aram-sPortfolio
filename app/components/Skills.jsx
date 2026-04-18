@@ -24,8 +24,8 @@ const skillsData = [
     { name: 'TensorFlow', icon: 'https://cdn.simpleicons.org/tensorflow/FF6F00', color: '#FF6F00' },
 ];
 
-// Duplicate array for infinite scroll effect
-const duplicatedSkills = [...skillsData, ...skillsData];
+// Duplicate array for infinite scroll effect - more copies for seamless loop on all screens
+const duplicatedSkills = [...skillsData, ...skillsData, ...skillsData, ...skillsData];
 
 const Skills = ({ isDarkMode }) => {
     const { t } = useTranslation();
@@ -100,7 +100,7 @@ const Skills = ({ isDarkMode }) => {
                         transform: translateX(0);
                     }
                     100% {
-                        transform: translateX(-50%);
+                        transform: translateX(-75%);
                     }
                 }
                 
