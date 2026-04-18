@@ -1,17 +1,25 @@
 'use client';
 
 import { motion } from "framer-motion"
-import { useState, useMemo } from "react"
+import { useState, useMemo, useRef, useEffect } from "react"
 import { useTranslation } from "@/app/hooks/useTranslation";
 import { Mail, Phone, Linkedin, Github, Globe } from "lucide-react";
 
 const About = ({ isDarkMode }) => {
   const { t } = useTranslation();
+  const terminalRef = useRef(null);
   const [terminalHistory, setTerminalHistory] = useState([
     { type: 'command', text: '$ system --status' },
     { type: 'output', text: 'STATUS: ONLINE', color: 'green' }
   ]);
   const [executedCommands, setExecutedCommands] = useState([]);
+
+  // Auto-scroll vers le bas du terminal
+  useEffect(() => {
+    if (terminalRef.current) {
+      terminalRef.current.scrollTop = terminalRef.current.scrollHeight;
+    }
+  }, [terminalHistory]);
 
   // Créer les commandes avec les traductions
   const commands = useMemo(() => [
@@ -240,7 +248,7 @@ const About = ({ isDarkMode }) => {
             </div>
 
             {/* Terminal Content */}
-            <div className='p-4 font-mono text-sm space-y-1 h-[300px] sm:h-[400px] lg:h-[500px] overflow-y-auto scrollbar-hide'>
+            <div ref={terminalRef} className='p-4 font-mono text-sm space-y-1 h-[300px] sm:h-[400px] lg:h-[500px] overflow-y-auto scrollbar-hide'>
               <style jsx>{`
                 .scrollbar-hide::-webkit-scrollbar {
                   display: none;
