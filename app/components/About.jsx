@@ -248,7 +248,7 @@ const About = ({ isDarkMode }) => {
             </div>
 
             {/* Terminal Content */}
-            <div ref={terminalRef} className='p-4 pb-8 font-mono text-sm space-y-1 h-[300px] sm:h-[400px] lg:h-[500px] overflow-y-auto scrollbar-hide'>
+            <div ref={terminalRef} className='p-4 pb-12 font-mono text-sm space-y-1 h-[350px] sm:h-[400px] lg:h-[500px] overflow-y-auto scrollbar-hide'>
               <style jsx>{`
                 .scrollbar-hide::-webkit-scrollbar {
                   display: none;
@@ -280,9 +280,9 @@ const About = ({ isDarkMode }) => {
               ))}
 
               {/* Cursor */}
-              <div className='flex items-center pt-2'>
-                <span className='text-[#1a365d] dark:text-cyan-400'>$</span>
-                <span className='w-2 h-4 bg-[#1a365d] dark:bg-cyan-400 ml-1 animate-pulse'></span>
+              <div className='flex items-center pt-4'>
+                <span className='text-[#1a365d] dark:text-cyan-400 text-base'>$</span>
+                <span className='w-2 h-5 bg-[#1a365d] dark:bg-cyan-400 ml-2 animate-pulse'></span>
               </div>
             </div>
           </motion.div>
