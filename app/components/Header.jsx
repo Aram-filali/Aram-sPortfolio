@@ -69,7 +69,7 @@ const Header = () => {
             </a>
 
             <a
-              href="/Aram-FILALI.pdf"
+              href="/CV-Aram-FILALI.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className='w-full sm:w-auto group px-8 py-3 border-2 border-[#1a365d] dark:border-cyan-400 text-[#1a365d] dark:text-cyan-400 hover:bg-[#1a365d] hover:text-white dark:hover:bg-cyan-400 dark:hover:text-gray-900 rounded-full flex items-center justify-center gap-2 transition-all duration-300 font-Ovo'

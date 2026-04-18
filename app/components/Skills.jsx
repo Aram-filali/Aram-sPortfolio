@@ -25,7 +25,7 @@ const skillsData = [
 ];
 
 // Duplicate array for infinite scroll effect
-const duplicatedSkills = [...skillsData, ...skillsData, ...skillsData];
+const duplicatedSkills = [...skillsData, ...skillsData];
 
 const Skills = ({ isDarkMode }) => {
     const { t } = useTranslation();
@@ -100,7 +100,7 @@ const Skills = ({ isDarkMode }) => {
                         transform: translateX(0);
                     }
                     100% {
-                        transform: translateX(calc(-1 * (100% / 3)));
+                        transform: translateX(-50%);
                     }
                 }
                 
