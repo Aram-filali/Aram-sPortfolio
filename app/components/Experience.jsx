@@ -22,7 +22,7 @@ const experienceData = [
             'Built secure multi-tenant authentication (JWT + Firebase) with role-based access controls ensuring property isolation and data security'
         ],
         technologies: [
-            'NestJS', 'TypeScript', 'Next.js', 'TypeScript','Microservices Architecture', 'EJS Templates', 'Puppeteer', 'node-ical', 'Stripe Connect', 'MongoDB', 'Mongoose', 'JWT Authentication', 'API Gateway Pattern', 'MongoDB', 'Mongoose', 'Firebase', 'Tailwind CSS', 'EJS Templates', 'Microservices','SMTP', 'Git', 'Github', 'Vercel'
+            'NestJS', 'TypeScript', 'Next.js', 'Tailwind CSS','Microservices Architecture', 'EJS Templates', 'Stripe Connect', 'MongoDB', 'Mongoose', 'JWT Authentication', 'API Gateway Pattern', 'MongoDB', 'Mongoose', 'Firebase','SMTP', 'Git', 'Github', 'Vercel'
         ]
     }
 ];
@@ -161,11 +161,11 @@ const Experience = ({ isDarkMode }) => {
                                 </div>
 
                                 {/* Technologies */}
-                                <div className='flex flex-wrap gap-2'>
-                                    {exp.technologies.map((tech, idx) => (
+                                <div className='flex flex-wrap gap-1.5 mb-3'>
+                                    {exp.technologies && exp.technologies.map((tech, idx) => (
                                         <span
                                             key={idx}
-                                            className='px-3 py-1.5 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-xs font-medium rounded-full border border-gray-200 dark:border-gray-600 hover:border-gray-300 dark:hover:border-gray-500 transition-colors'
+                                            className='px-2 py-1 bg-gray-100 dark:bg-gray-700 text-xs font-semibold rounded text-gray-700 dark:text-gray-300'
                                         >
                                             {tech}
                                         </span>

@@ -105,7 +105,7 @@ const Skills = ({ isDarkMode }) => {
                 }
                 
                 .animate-scroll-fast {
-                    animation: scroll-fast 20s linear infinite;
+                    animation: scroll-fast 1.5s linear infinite;
                 }
                 
                 .animate-scroll-fast:hover {
