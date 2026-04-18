@@ -85,7 +85,7 @@ const Header = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className='relative flex justify-center lg:justify-end order-1 lg:order-2 z-0'
+          className='relative flex justify-center lg:justify-end order-1 lg:order-2 z-0 pt-12 sm:pt-16 lg:pt-0'
         >
           {/* Main Photo Container */}
           <div className='relative'>
