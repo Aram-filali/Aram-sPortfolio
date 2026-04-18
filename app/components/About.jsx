@@ -248,16 +248,7 @@ const About = ({ isDarkMode }) => {
             </div>
 
             {/* Terminal Content */}
-            <div ref={terminalRef} className='p-4 pb-12 font-mono text-sm space-y-1 min-h-[350px] max-h-[350px] sm:max-h-[400px] lg:max-h-[500px] overflow-y-auto scrollbar-hide'>
-              <style jsx>{`
-                .scrollbar-hide::-webkit-scrollbar {
-                  display: none;
-                }
-                .scrollbar-hide {
-                  -ms-overflow-style: none;
-                  scrollbar-width: none;
-                }
-              `}</style>
+            <div ref={terminalRef} className='p-4 pb-12 font-mono text-sm space-y-1 h-80 sm:h-96 lg:h-[500px] overflow-y-scroll'>
               {terminalHistory.map((line, index) => (
                 <motion.div
                   key={index}
