@@ -248,7 +248,7 @@ const About = ({ isDarkMode }) => {
             </div>
 
             {/* Terminal Content */}
-            <div ref={terminalRef} className='p-4 font-mono text-sm space-y-1 h-[300px] sm:h-[400px] lg:h-[500px] overflow-y-auto scrollbar-hide'>
+            <div ref={terminalRef} className='p-4 pb-8 font-mono text-sm space-y-1 h-[300px] sm:h-[400px] lg:h-[500px] overflow-y-auto scrollbar-hide'>
               <style jsx>{`
                 .scrollbar-hide::-webkit-scrollbar {
                   display: none;
