@@ -117,7 +117,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         <ul
           ref={sideMenuRef}
           className="flex md:hidden flex-col gap-4 py-20 px-10 fixed right-0 top-0 bottom-0 w-64
-        z-50 h-screen bg-rose-50 transition-transform duration-500 translate-x-64 dark:bg-darkHover dark:text-white"
+        z-50 h-screen bg-white transition-transform duration-500 translate-x-64 dark:bg-darkHover dark:text-white"
         >
           <div className="absolute right-6 top-6" onClick={closeMenu}>
             <X className="w-5 h-5 cursor-pointer" />
