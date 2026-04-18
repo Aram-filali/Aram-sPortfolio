@@ -22,24 +22,9 @@ const skillsData = [
     { name: 'PostgreSQL', icon: 'https://cdn.simpleicons.org/postgresql/4169E1', color: '#4169E1' },
     { name: 'FastAPI', icon: 'https://cdn.simpleicons.org/fastapi/009688', color: '#009688' },
     { name: 'TensorFlow', icon: 'https://cdn.simpleicons.org/tensorflow/FF6F00', color: '#FF6F00' },
-    { name: 'GitHub', icon: 'https://cdn.simpleicons.org/github/white', color: '#181717' },
-    { name: 'Git', icon: 'https://cdn.simpleicons.org/git/F05032', color: '#F05032' },
-    { name: 'HTML', icon: 'https://cdn.simpleicons.org/html5/E34F26', color: '#E34F26' },
-    { name: 'Docker', icon: 'https://cdn.simpleicons.org/docker/2496ED', color: '#2496ED' },
-    { name: 'MongoDB', icon: 'https://cdn.simpleicons.org/mongodb/47A248', color: '#47A248' },
-    { name: 'Python', icon: 'https://cdn.simpleicons.org/python/3776AB', color: '#3776AB' },
-    { name: 'Tailwind', icon: 'https://cdn.simpleicons.org/tailwindcss/06B6D4', color: '#06B6D4' },
-    { name: 'JavaScript', icon: 'https://cdn.simpleicons.org/javascript/F7DF1E', color: '#F7DF1E' },
-    { name: 'React', icon: 'https://cdn.simpleicons.org/react/61DAFB', color: '#61DAFB' },
-    { name: 'Node.js', icon: 'https://cdn.simpleicons.org/nodedotjs/339933', color: '#339933' },
-    { name: 'TypeScript', icon: 'https://cdn.simpleicons.org/typescript/3178C6', color: '#3178C6' },
-    { name: 'Next.js', icon: 'https://cdn.simpleicons.org/nextdotjs/white', color: '#000000' },
-    { name: 'PostgreSQL', icon: 'https://cdn.simpleicons.org/postgresql/4169E1', color: '#4169E1' },
-    { name: 'FastAPI', icon: 'https://cdn.simpleicons.org/fastapi/009688', color: '#009688' },
-    { name: 'TensorFlow', icon: 'https://cdn.simpleicons.org/tensorflow/FF6F00', color: '#FF6F00' },
 ];
 
-// Use duplicated skillsData directly - duplicate the 30 elements for seamless infinite scroll
+// Duplicate array for infinite scroll effect
 const duplicatedSkills = [...skillsData, ...skillsData];
 
 const Skills = ({ isDarkMode }) => {
@@ -110,7 +95,7 @@ const Skills = ({ isDarkMode }) => {
 
             {/* CSS Animation */}
             <style jsx>{`
-                @keyframes scroll-infinite {
+                @keyframes scroll-fast {
                     0% {
                         transform: translateX(0);
                     }
@@ -120,7 +105,7 @@ const Skills = ({ isDarkMode }) => {
                 }
                 
                 .animate-scroll-fast {
-                    animation: scroll-infinite 8s linear infinite;
+                    animation: scroll-fast 5s linear infinite;
                 }
                 
                 .animate-scroll-fast:hover {
