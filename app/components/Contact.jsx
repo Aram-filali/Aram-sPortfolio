@@ -88,8 +88,8 @@ const Contact = () => {
             className='flex items-center justify-center gap-3'
           >
             <Phone className='w-6 h-6 text-[#1a365d] dark:text-cyan-400' />
-            <a href="tel:+21624022910" className='text-[#1a365d] dark:text-cyan-400 font-semibold hover:underline'>
-              +216 24 022 910
+            <a href="tel:+21621912044" className='text-[#1a365d] dark:text-cyan-400 font-semibold hover:underline'>
+              +216 21 912 044
             </a>
           </motion.div>
         </div>
