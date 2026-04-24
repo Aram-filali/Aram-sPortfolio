@@ -59,12 +59,12 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               : "py-3 bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"
             }`}
         >
-          <li><a className="font-Ovo" href="#top">{t('nav.home')}</a></li>
-          <li><a className="font-Ovo" href="#about">{t('nav.about')}</a></li>
-          <li><a className="font-Ovo" href="#projects">{t('nav.projects')}</a></li>
-          <li><a className="font-Ovo" href="#experience">{t('nav.experience')}</a></li>
-          <li><a className="font-Ovo" href="#technologies">{t('nav.technologies')}</a></li>
-          <li><a className="font-Ovo" href="#certifications">{t('nav.certifications')}</a></li>
+          <li><a className="font-heading" href="#top">{t('nav.home')}</a></li>
+          <li><a className="font-heading" href="#about">{t('nav.about')}</a></li>
+          <li><a className="font-heading" href="#projects">{t('nav.projects')}</a></li>
+          <li><a className="font-heading" href="#experience">{t('nav.experience')}</a></li>
+          <li><a className="font-heading" href="#technologies">{t('nav.technologies')}</a></li>
+          <li><a className="font-heading" href="#certifications">{t('nav.certifications')}</a></li>
         </ul>
 
         {/* Buttons */}
@@ -101,7 +101,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </button>
 
           <a href="#contact"
-            className={`flex items-center gap-3 border border-gray-500 rounded-full ml-2 font-Ovo dark:border-white/50 transition-all duration-300 ${isScroll ? "px-8 py-2" : "px-10 py-2.5"}`}
+            className={`flex items-center gap-3 border border-gray-500 rounded-full ml-2 font-heading dark:border-white/50 transition-all duration-300 ${isScroll ? "px-8 py-2" : "px-10 py-2.5"}`}
           >
             {t('nav.contact')}
             <ChevronRight className="w-3 h-3" />
@@ -124,11 +124,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </div>
 
           <li><a href="#top" onClick={closeMenu}>{t('nav.home')}</a></li>
-          <li><a className="font-Ovo" href="#about" onClick={closeMenu}>{t('nav.about')}</a></li>
-          <li><a className="font-Ovo" href="#projects" onClick={closeMenu}>{t('nav.projects')}</a></li>
-          <li><a className="font-Ovo" href="#experience" onClick={closeMenu}>{t('nav.experience')}</a></li>
-          <li><a className="font-Ovo" href="#technologies" onClick={closeMenu}>{t('nav.technologies')}</a></li>
-          <li><a className="font-Ovo" href="#certifications" onClick={closeMenu}>{t('nav.certifications')}</a></li>
+          <li><a className="font-heading" href="#about" onClick={closeMenu}>{t('nav.about')}</a></li>
+          <li><a className="font-heading" href="#projects" onClick={closeMenu}>{t('nav.projects')}</a></li>
+          <li><a className="font-heading" href="#experience" onClick={closeMenu}>{t('nav.experience')}</a></li>
+          <li><a className="font-heading" href="#technologies" onClick={closeMenu}>{t('nav.technologies')}</a></li>
+          <li><a className="font-heading" href="#certifications" onClick={closeMenu}>{t('nav.certifications')}</a></li>
         </ul>
       </nav>
     </>

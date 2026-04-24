@@ -19,7 +19,7 @@ const Header = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
 
-            <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-[#1a365d] dark:text-white font-Ovo'>
+            <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-[#1a365d] dark:text-white font-heading'>
               {t('header.name')}
             </h1>
           </motion.div>
@@ -28,7 +28,7 @@ const Header = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-700 dark:text-gray-300 font-Ovo'
+            className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-700 dark:text-gray-300 font-heading'
           >
             {t('header.title')}
           </motion.h2>
@@ -37,7 +37,7 @@ const Header = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className='text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed font-Ovo max-w-xl mx-auto lg:mx-0'
+            className='text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-xl mx-auto lg:mx-0'
           >
             {t('header.description')}
           </motion.p>
@@ -50,7 +50,7 @@ const Header = () => {
             className='flex items-center justify-center lg:justify-start gap-2 text-gray-600 dark:text-gray-400'
           >
             <MapPin className='w-5 h-5 text-[#1a365d] dark:text-cyan-400' />
-            <span className='font-Ovo text-base'>{t('header.location')}</span>
+            <span className='text-base font-medium'>{t('header.location')}</span>
           </motion.div>
 
           {/* Buttons */}
@@ -62,7 +62,7 @@ const Header = () => {
           >
             <a
               href="#contact"
-              className='w-full sm:w-auto group px-8 py-3 bg-[#1a365d] hover:bg-[#2d4a7c] dark:bg-cyan-600 dark:hover:bg-cyan-500 text-white rounded-full flex items-center justify-center gap-2 transition-all duration-300 font-Ovo shadow-lg hover:shadow-xl'
+              className='w-full sm:w-auto group px-8 py-3 bg-[#1a365d] hover:bg-[#2d4a7c] dark:bg-cyan-600 dark:hover:bg-cyan-500 text-white rounded-full flex items-center justify-center gap-2 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl'
             >
               <Mail className='w-4 h-4' />
               {t('header.contactMe')}
@@ -72,7 +72,7 @@ const Header = () => {
               href="/CV_Aram_FILALI.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className='w-full sm:w-auto group px-8 py-3 border-2 border-[#1a365d] dark:border-cyan-400 text-[#1a365d] dark:text-cyan-400 hover:bg-[#1a365d] hover:text-white dark:hover:bg-cyan-400 dark:hover:text-gray-900 rounded-full flex items-center justify-center gap-2 transition-all duration-300 font-Ovo'
+              className='w-full sm:w-auto group px-8 py-3 border-2 border-[#1a365d] dark:border-cyan-400 text-[#1a365d] dark:text-cyan-400 hover:bg-[#1a365d] hover:text-white dark:hover:bg-cyan-400 dark:hover:text-gray-900 rounded-full flex items-center justify-center gap-2 transition-all duration-300 font-semibold'
             >
               <Download className='w-4 h-4' />
               {t('header.linkedIn')}

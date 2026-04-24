@@ -13,9 +13,8 @@ module.exports = {
         darkTheme: '#020617',
       },
       fontFamily: {
-        Outfit: ["Outfit", "sans-serif"],
-        Ovo: ["Ovo", "serif"],
-        Poppins: ["var(--font-poppins)", "sans-serif"]
+        heading: ["var(--font-jakarta)", "Plus Jakarta Sans", "sans-serif"],
+        body: ["var(--font-inter)", "Inter", "sans-serif"],
       },
       boxShadow: {
         'black': '4px 4px 0 #000',

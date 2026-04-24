@@ -2,13 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ===== Typography System ===== */
 * {
-  font-family: Outfit;
+  font-family: var(--font-inter), 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-.font-poppins {
-  font-family: var(--font-poppins), sans-serif;
+/* Heading font utility */
+.font-heading {
+  font-family: var(--font-jakarta), 'Plus Jakarta Sans', system-ui, sans-serif;
 }
+
+/* Body font utility */
+.font-body {
+  font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
+}
+
+/* ===== Base Typography ===== */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-jakarta), 'Plus Jakarta Sans', system-ui, sans-serif;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+  }
+
+  body {
+    font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
+    letter-spacing: -0.011em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  p {
+    line-height: 1.7;
+  }
+}
+
+/* ===== Animations ===== */
 
 /* Infinite scroll animation for skills */
 @keyframes scroll {

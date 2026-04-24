@@ -47,7 +47,7 @@ const Certifications = ({ isDarkMode }) => {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className='text-center mb-16'
             >
-                <h2 className='text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 font-Ovo'>
+                <h2 className='text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 font-heading'>
                     {t('certifications.title')}
                 </h2>
                 <div className='w-14 h-1 bg-[#1a365d] dark:bg-cyan-400 mx-auto'></div>

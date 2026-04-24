@@ -79,10 +79,11 @@ export const assets = {
 };
 
 export const workData = [
-        {
+    {
         title: 'Estatias - Multi-Tenant SaaS Site Generator',
         description: 'Enables property managers to launch their own booking websites in minutes automating reservations, payments, and marketing without the expensive OTA commissions.',
         bgImage: '/work-4.png',
+        link: 'https://github.com/Aram-filali/Estatias.git',
         technologies: ['Next.js', 'NestJS', 'TypeScript', 'MongoDB', 'Mongoose', 'Stripe', 'Firebase', 'Tailwind CSS', 'EJS Templates', 'Microservices', 'JWT','SMTP', 'Git', 'Github', 'Vercel'],
         details: [
             'Hosts sign up → Platform generates a custom Next.js website instantly',
@@ -96,6 +97,7 @@ export const workData = [
         title: 'AI Sales Assistant - Intelligent Chatbot & Lead Capture',
         description: 'Advanced RAG chatbot that automatically captures and qualifies leads through intelligent conversation integrating semantic search, NLP, and real-time scoring without manual intervention.',
         bgImage: '/logoai.png',
+        link: 'https://github.com/Aram-filali/AI-Assistant.git',
         technologies: ['FastAPI', 'Next.js', 'PostgreSQL', 'FAISS', 'Python', 'TypeScript', 'RAG', 'NLP', 'Vector Database', 'Uvicorn', 'JWT', 'Alembic'],
         details: [
             'RAG pipeline powered by FAISS vector database achieving 95%+ accuracy in lead extraction and intent recognition',
@@ -105,10 +107,11 @@ export const workData = [
             'Production-grade deployment: FastAPI backend, React 18 frontend, PostgreSQL 15 with seamless Alembic migrations'
         ]
     },
-        {
+    {
         title: 'Syntra.ai - Meeting Intelligence Platform',
         description: 'Transforms meeting recordings into actionable intelligence automatically transcribing, analyzing, and extracting decisions, tasks, and key insights without manual effort.',
         bgImage: '/syntra.png',
+        link: 'https://github.com/Aram-filali/Syntra.ai.git',
         technologies: ['LangChain', 'FastAPI', 'AssemblyAI', 'PostgreSQL', 'Zoom OAuth', 'Celery', 'Redis', 'Python', 'AsyncIO', 'Webhooks', 'OpenAI', 'JWT'],
         details: [
             'Users connect Zoom → Platform automatically captures and transcribes all meetings with 85%+ accuracy',
@@ -122,6 +125,7 @@ export const workData = [
         title: 'Hirix - Career Intelligence & Interview Prep Platform',
         description: 'Empowers job seekers to land roles faster through AI-powered CV analysis, real-time interview simulation, and intelligent application tracking—transforming the entire job search journey from profile optimization to offer negotiations.',
         bgImage: '/hirix.png',
+        link: 'https://github.com/Aram-filali/Hirix.git',
         technologies: ['React', 'Node.js', 'MongoDB', 'n8n', 'JWT', 'Express', 'Mongoose', 'Context API', 'Tailwind CSS', 'REST APIs', 'bcrypt'],
         details: [
             'Candidates upload resumes → Platform instantly generates AI-powered profile critiques and personalizes interview simulations',
@@ -136,6 +140,7 @@ export const workData = [
         title: 'Sentrik - AI Feedback Analytics Platform',
         description: 'SaaS platform transforming customer feedback into actionable insights via NLP automating sentiment analysis and trend extraction without manual effort.',
         bgImage: '/sentrik.png',
+        link: 'https://github.com/Aram-filali/Sentrik.git',
         technologies: ['Next.js', 'FastAPI', 'Python', 'Transformers', 'BERT Multilingual', 'SQLAlchemy', 'Pandas', 'TypeScript', 'Tailwind CSS', 'Alembic', 'PostgreSQL', 'JWT', 'Pytest'],
         details: [
             'Users upload CSV/Excel → AI pipeline automatically processes feedback in real-time with zero manual intervention',

@@ -50,7 +50,7 @@ const Contact = () => {
         transition={{ duration: 0.5, delay: 0.3 }}
         className='text-center mb-16'
       >
-        <h2 className='text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 font-Ovo'>
+        <h2 className='text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 font-heading'>
           {t('contact.title')}
         </h2>
         <div className='w-14 h-1 bg-[#1a365d] dark:bg-cyan-400 mx-auto'></div>
@@ -60,7 +60,7 @@ const Contact = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.7, duration: 0.5 }}
-        className='text-center max-w-2xl mx-auto mt-5 mb-12 text-gray-600 dark:text-gray-400 font-Ovo text-lg'
+        className='text-center max-w-2xl mx-auto mt-5 mb-12 text-gray-600 dark:text-gray-400 text-lg'
       >
         {t('contact.subtitle')}
       </motion.p>
