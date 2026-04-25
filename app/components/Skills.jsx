@@ -20,9 +20,7 @@ const skillsData = [
     { name: 'TypeScript', icon: 'https://cdn.simpleicons.org/typescript/3178C6', color: '#3178C6' },
     { name: 'Next.js', icon: 'https://cdn.simpleicons.org/nextdotjs/white', color: '#000000' },
     { name: 'PostgreSQL', icon: 'https://cdn.simpleicons.org/postgresql/4169E1', color: '#4169E1' },
-    { name: 'FastAPI', icon: 'https://cdn.simpleicons.org/fastapi/009688', color: '#009688' },
-    { name: 'TensorFlow', icon: 'https://cdn.simpleicons.org/tensorflow/FF6F00', color: '#FF6F00' },
-];
+    { name: 'FastAPI', icon: 'https://cdn.simpleicons.org/fastapi/009688', color: '#009688' },]
 
 // Duplicate array for infinite scroll effect
 const duplicatedSkills = [...skillsData, ...skillsData];
