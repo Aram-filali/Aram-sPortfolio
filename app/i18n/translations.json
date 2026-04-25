@@ -106,10 +106,6 @@
         "description": "Enables property managers to launch their own booking websites in minutes, automating reservations, payments, and marketing without the expensive OTA commissions."
       },
       {
-        "title": "AI Sales Assistant - Intelligent Chatbot & Lead Capture",
-        "description": "Advanced RAG chatbot that automatically captures and qualifies leads through intelligent conversation, integrating semantic search, NLP, and real-time scoring without manual intervention."
-      },
-      {
         "title": "Syntra.ai - Meeting Intelligence Platform",
         "description": "Transforms meeting recordings into actionable intelligence, automatically transcribing, analyzing, and extracting decisions, tasks, and key insights without manual effort."
       },
@@ -150,16 +146,6 @@
       {
         "id": 1,
         "details": [
-          "RAG pipeline powered by FAISS vector database achieving 95%+ accuracy in lead extraction and intent recognition",
-          "Multi-tenant architecture with JWT authentication and 115+ unit tests enforcing SOLID principles and code quality",
-          "NLP-driven conversation engine automatically captures contact info and qualification data in real-time without forms",
-          "Real-time lead scoring system analyzes conversation patterns to identify high-intent prospects automatically",
-          "Production-grade deployment: FastAPI backend, React 18 frontend, PostgreSQL 15 with seamless Alembic migrations"
-        ]
-      },
-      {
-        "id": 2,
-        "details": [
           "Users connect Zoom → Platform automatically captures and transcribes all meetings with 85%+ accuracy",
           "4 specialized LLM agents work in parallel: summarization, action extraction, decision tracking, and Q&A generation",
           "Zoom OAuth 2.0 integration with automatic token refresh ensures seamless authentication and secure data sync",
@@ -168,7 +154,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 2,
         "details": [
           "Candidates upload resumes → Platform instantly generates AI-powered profile critiques and personalizes interview simulations",
           "8+ coordinated microservices handle CV analysis, profile optimization, HR/technical interview simulations with real-time AI feedback",
@@ -178,7 +164,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 3,
         "details": [
           "Users upload CSV/Excel → AI pipeline automatically processes feedback in real-time with zero manual intervention",
           "Multilingual BERT engine detects 3 sentiments (Positive/Neutral/Negative) with simultaneous keyword extraction from customer feedback",
@@ -296,10 +282,6 @@
         "description": "Permet aux gestionnaires de propriétés de lancer leurs propres sites web de réservation en minutes, automatisant les réservations, les paiements et le marketing sans les commissions OTA coûteuses."
       },
       {
-        "title": "Assistant de Ventes IA - Chatbot Intelligent & Capture de Leads",
-        "description": "Chatbot RAG avancé qui capture et qualifie automatiquement les leads par conversation intelligente, intégrant la recherche sémantique, le NLP et l'évaluation en temps réel sans intervention manuelle."
-      },
-      {
         "title": "Syntra.ai - Plateforme d'Intelligence Réunion",
         "description": "Transforme les enregistrements de réunion en intelligence exploitable, transcrivant, analysant et extrayant automatiquement les décisions, tâches et insights sans intervention manuelle."
       },
@@ -340,16 +322,6 @@
       {
         "id": 1,
         "details": [
-          "Pipeline RAG alimenté par la base de données vectorielle FAISS atteignant une précision de 95%+ dans l'extraction des pistes et la reconnaissance d'intentionnalité",
-          "Architecture multi-locataire avec authentification JWT et 115+ tests unitaires appliquant les principes SOLID et la qualité du code",
-          "Moteur de conversation alimenté par le NLP capturant automatiquement les informations de contact et les données de qualification en temps réel sans formes",
-          "Système de notation des pistes en temps réel analysant les modèles de conversation pour identifier automatiquement les prospects à haut degré d'intention",
-          "Déploiement de qualité production: backend FastAPI, frontend React 18, PostgreSQL 15 avec migrations Alembic transparentes"
-        ]
-      },
-      {
-        "id": 2,
-        "details": [
           "Les utilisateurs connectent Zoom → La plateforme capture et transcrit automatiquement toutes les réunions avec une précision de 85%+",
           "4 agents LLM spécialisés travaillent en parallèle: résumé, extraction d'actions, suivi des décisions et génération de questions-réponses",
           "Intégration OAuth 2.0 Zoom avec actualisation automatique du jeton assurant une authentification transparente et une synchronisation sécurisée des données",
@@ -358,7 +330,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 2,
         "details": [
           "Les candidats téléchargent leur CV → La plateforme génère instantanément des critiques de profil alimentées par l'IA et personnalise les simulations d'entretien",
           "8+ microservices coordonnés gèrent l'analyse des CV, l'optimisation des profils, les simulations d'entretien RH/techniques avec rétroaction IA en temps réel",
@@ -368,7 +340,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 3,
         "details": [
           "Les utilisateurs téléchargent un fichier CSV/Excel → Le pipeline IA traite automatiquement les commentaires en temps réel sans intervention manuelle",
           "Le moteur BERT multilingue détecte 3 sentiments (Positif/Neutre/Négatif) avec extraction simultanée de mots-clés des commentaires des clients",

@@ -84,7 +84,7 @@ export const workData = [
         description: 'Enables property managers to launch their own booking websites in minutes automating reservations, payments, and marketing without the expensive OTA commissions.',
         bgImage: '/work-4.png',
         link: 'https://github.com/Aram-filali/Estatias.git',
-        technologies: ['Next.js', 'NestJS', 'TypeScript', 'MongoDB', 'Mongoose', 'Stripe', 'Firebase', 'Tailwind CSS', 'EJS Templates', 'Microservices', 'JWT','SMTP', 'Git', 'Github', 'Vercel'],
+        technologies: ['Next.js', 'NestJS', 'TypeScript', 'MongoDB', 'Mongoose', 'Stripe', 'Firebase', 'Tailwind CSS', 'EJS Templates', 'Microservices', 'JWT', 'SMTP', 'Git', 'Github', 'Vercel'],
         details: [
             'Hosts sign up → Platform generates a custom Next.js website instantly',
             '9 microservices handle payments (Stripe), bookings, calendar syncing, and authentication',
@@ -93,6 +93,7 @@ export const workData = [
             'Multi-tenant architecture ensures data security and fast, isolated deployments'
         ]
     },
+    /*
     {
         title: 'AI Sales Assistant - Intelligent Chatbot & Lead Capture',
         description: 'Advanced RAG chatbot that automatically captures and qualifies leads through intelligent conversation integrating semantic search, NLP, and real-time scoring without manual intervention.',
@@ -107,6 +108,7 @@ export const workData = [
             'Production-grade deployment: FastAPI backend, React 18 frontend, PostgreSQL 15 with seamless Alembic migrations'
         ]
     },
+    */
     {
         title: 'Syntra.ai - Meeting Intelligence Platform',
         description: 'Transforms meeting recordings into actionable intelligence automatically transcribing, analyzing, and extracting decisions, tasks, and key insights without manual effort.',
