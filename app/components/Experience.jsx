@@ -17,7 +17,7 @@ const experienceData = [
         achievements: [
             'Architected 9 NestJS microservices (API Gateway, Site Generator, Booking ..) coordinating core platform features',
             'Built dynamic website generator using EJS templates + Next.js that deploys customized sites on-demand with automatic port allocation and lifecycle management',
-            'Implemented AI-powered SEO module generating property descriptions 10x faster, integrated with real-time calendar synchronization (node-ical + Puppeteer)',
+            'Implemented AI-powered SEO module generating property descriptions 10x faster, integrated with real-time calendar synchronization',
             'Deployed Stripe Connect infrastructure enabling automatic payment processing and revenue distribution to hosts with full financial tracking',
             'Built secure multi-tenant authentication (JWT + Firebase) with role-based access controls ensuring property isolation and data security'
         ],

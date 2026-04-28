@@ -32,7 +32,7 @@
       "skillsDescription": "See my skills",
       "languages": "Languages: C++ | Python | JavaScript | TypeScript | PHP | SQL",
       "webDev": "Web Dev: Next.js | React | NestJS | Node.js | FastAPI | REST APIs",
-      "aiMl": "AI/ML: LangChain | BERT | RAG | Prompt Engineering | LLMs",
+      "aiMl": "AI/ML: LangChain | BERT | Prompt Engineering | LLMs",
       "databases": "Databases: MongoDB | PostgreSQL | MySQL | Firebase",
       "cloudDevops": "Cloud & DevOps: Git | Docker | Vercel | Render",
       "contactInfo": "Contact info",
@@ -102,6 +102,10 @@
     },
     "projectsData": [
       {
+        "title": "QueryMind - Natural Language to SQL Translator",
+        "description": "Design of a Natural Language to SQL translator (QueryMind) allowing users to query a database without any technical skills."
+      },
+      {
         "title": "Estatias - Multi-Tenant SaaS Site Generator",
         "description": "Enables property managers to launch their own booking websites in minutes, automating reservations, payments, and marketing without the expensive OTA commissions."
       },
@@ -135,6 +139,13 @@
     "projectsDetails": [
       {
         "id": 0,
+        "details": [
+          "Privacy-First & 100% Local Architecture: Integration of open-source LLMs (Mistral 7B via Ollama) preventing any leak of sensitive data schemas to third-party cloud APIs.",
+          "Full-Stack Development: Robust asynchronous API developed in Python/FastAPI, coupled with a fluid, dark-mode user interface integrating syntax highlighting (Vanilla JS/CSS)."
+        ]
+      },
+      {
+        "id": 1,
         "details": [
           "Hosts sign up → Platform generates a custom Next.js website instantly",
           "9 microservices handle payments (Stripe), bookings, calendar syncing, and authentication",
@@ -208,7 +219,7 @@
       "skillsDescription": "Voir mes compétences",
       "languages": "Langages: C++ | Python | JavaScript | TypeScript | PHP | SQL",
       "webDev": "Dev Web: Next.js | React | NestJS | Node.js | FastAPI | REST APIs",
-      "aiMl": "IA/ML: LangChain | BERT | RAG | Prompt Engineering | LLMs",
+      "aiMl": "IA/ML: LangChain | BERT | Prompt Engineering | LLMs",
       "databases": "Bases de données: MongoDB | PostgreSQL | MySQL | Firebase",
       "cloudDevops": "Cloud & DevOps: Git | Docker | Vercel | Render | AWS",
       "contactInfo": "Infos de contact",
@@ -278,6 +289,10 @@
     },
     "projectsData": [
       {
+        "title": "QueryMind - Traducteur Langage Naturel vers SQL",
+        "description": "Conception d'un traducteur Langage Naturel vers SQL (QueryMind) permettant d'interroger une base de données sans aucune compétence technique."
+      },
+      {
         "title": "Estatias - Générateur SaaS Multi-Locataires",
         "description": "Permet aux gestionnaires de propriétés de lancer leurs propres sites web de réservation en minutes, automatisant les réservations, les paiements et le marketing sans les commissions OTA coûteuses."
       },
@@ -311,6 +326,13 @@
     "projectsDetails": [
       {
         "id": 0,
+        "details": [
+          "Architecture \"Privacy-First\" & 100% Locale : Intégration de LLM open-source (Mistral 7B via Ollama) empêchant toute fuite de schémas de données sensibles vers des API cloud tierces.",
+          "Développement Full-Stack : API asynchrone robuste développée en Python/FastAPI, couplée à une interface utilisateur fluide, en dark-mode, intégrant la coloration syntaxique (Vanilla JS/CSS)."
+        ]
+      },
+      {
+        "id": 1,
         "details": [
           "Les hôtes s'inscrivent → La plateforme génère un site Web personnalisé Next.js instantanément",
           "9 microservices gèrent les paiements (Stripe), les réservations, la synchronisation calendaire et l'authentification",

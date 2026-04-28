@@ -80,6 +80,17 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'QueryMind - Natural Language to SQL Translator',
+        description: 'Design of a Natural Language to SQL translator (QueryMind) allowing users to query a database without any technical skills.',
+        bgImage: '/query.png',
+        link: 'https://github.com/Aram-filali/QueryMind.git',
+        technologies: ['Python', 'FastAPI', 'Ollama (Mistral)', 'Vanilla JS', 'CSS3', 'HTML5'],
+        details: [
+            'Privacy-First & 100% Local Architecture: Integration of open-source LLMs (Mistral 7B via Ollama) preventing any leak of sensitive data schemas to third-party cloud APIs.',
+            'Full-Stack Development: Robust asynchronous API developed in Python/FastAPI, coupled with a fluid, dark-mode user interface integrating syntax highlighting (Vanilla JS/CSS).'
+        ]
+    },
+    {
         title: 'Estatias - Multi-Tenant SaaS Site Generator',
         description: 'Enables property managers to launch their own booking websites in minutes automating reservations, payments, and marketing without the expensive OTA commissions.',
         bgImage: '/work-4.png',
