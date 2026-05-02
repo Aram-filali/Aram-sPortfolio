@@ -22,7 +22,7 @@ const experienceData = [
             'Built secure multi-tenant authentication (JWT + Firebase) with role-based access controls ensuring property isolation and data security'
         ],
         technologies: [
-            'NestJS', 'TypeScript', 'Next.js', 'Tailwind CSS','Microservices Architecture', 'EJS Templates', 'Stripe Connect', 'MongoDB', 'Mongoose', 'JWT Authentication', 'API Gateway Pattern', 'MongoDB', 'Mongoose', 'Firebase','SMTP', 'Git', 'Github', 'Vercel'
+            'NestJS', 'TypeScript', 'Next.js', 'React', 'Tailwind CSS','Microservices Architecture', 'EJS Templates', 'Stripe Connect', 'MongoDB', 'Mongoose', 'JWT Authentication', 'API Gateway Pattern', 'MongoDB', 'Mongoose', 'Firebase','SMTP', 'Git', 'Github', 'Vercel'
         ]
     }
 ];

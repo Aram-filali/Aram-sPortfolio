@@ -30,7 +30,7 @@
       "skillsFetch": "View tech stack",
       "skillsLabel": "$ skills --tech-stack",
       "skillsDescription": "See my skills",
-      "languages": "Languages: C++ | Python | JavaScript | TypeScript | PHP | SQL",
+      "languages": "Languages: C++ | Python | JavaScript | TypeScript | React | PHP | SQL",
       "webDev": "Web Dev: Next.js | React | NestJS | Node.js | FastAPI | REST APIs",
       "aiMl": "AI/ML: LangChain | BERT | Prompt Engineering | LLMs",
       "databases": "Databases: MongoDB | PostgreSQL | MySQL | Firebase",
@@ -141,7 +141,7 @@
         "id": 0,
         "details": [
           "Privacy-First & 100% Local Architecture: Integration of open-source LLMs (Mistral 7B via Ollama) preventing any leak of sensitive data schemas to third-party cloud APIs.",
-          "Full-Stack Development: Robust asynchronous API developed in Python/FastAPI, coupled with a fluid, dark-mode user interface integrating syntax highlighting (Vanilla JS/CSS)."
+          "Full-Stack Development: Robust asynchronous API developed in Python/FastAPI, coupled with a fluid, dark-mode user interface integrating syntax highlighting (React/Vanilla JS/CSS)."
         ]
       },
       {
@@ -217,7 +217,7 @@
       "skillsFetch": "Voir la pile technologique",
       "skillsLabel": "$ skills --tech-stack",
       "skillsDescription": "Voir mes compétences",
-      "languages": "Langages: C++ | Python | JavaScript | TypeScript | PHP | SQL",
+      "languages": "Langages: C++ | Python | JavaScript | TypeScript | React | PHP | SQL",
       "webDev": "Dev Web: Next.js | React | NestJS | Node.js | FastAPI | REST APIs",
       "aiMl": "IA/ML: LangChain | BERT | Prompt Engineering | LLMs",
       "databases": "Bases de données: MongoDB | PostgreSQL | MySQL | Firebase",
@@ -328,7 +328,7 @@
         "id": 0,
         "details": [
           "Architecture \"Privacy-First\" & 100% Locale : Intégration de LLM open-source (Mistral 7B via Ollama) empêchant toute fuite de schémas de données sensibles vers des API cloud tierces.",
-          "Développement Full-Stack : API asynchrone robuste développée en Python/FastAPI, couplée à une interface utilisateur fluide, en dark-mode, intégrant la coloration syntaxique (Vanilla JS/CSS)."
+          "Développement Full-Stack : API asynchrone robuste développée en Python/FastAPI, couplée à une interface utilisateur fluide, en dark-mode, intégrant la coloration syntaxique (React/Vanilla JS/CSS)."
         ]
       },
       {

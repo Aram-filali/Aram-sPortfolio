@@ -84,7 +84,7 @@ export const workData = [
         description: 'Design of a Natural Language to SQL translator (QueryMind) allowing users to query a database without any technical skills.',
         bgImage: '/query.png',
         link: 'https://github.com/Aram-filali/QueryMind.git',
-        technologies: ['Python', 'FastAPI', 'Ollama (Mistral)', 'Vanilla JS', 'CSS3', 'HTML5'],
+        technologies: ['Python', 'FastAPI', 'Ollama (Mistral)', 'React', 'Vanilla JS', 'CSS3', 'HTML5'],
         details: [
             'Privacy-First & 100% Local Architecture: Integration of open-source LLMs (Mistral 7B via Ollama) preventing any leak of sensitive data schemas to third-party cloud APIs.',
             'Full-Stack Development: Robust asynchronous API developed in Python/FastAPI, coupled with a fluid, dark-mode user interface integrating syntax highlighting (Vanilla JS/CSS).'
@@ -173,7 +173,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'C++ | Python | JavaScript | TypeScript | PHP | SQL | HTML/CSS' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'C++ | Python | JavaScript | TypeScript | React | PHP | SQL | HTML/CSS' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'MS Software Engineering (ISIMA) | BS Software Engineering (ISIMM)' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: '3+ Full-Stack Projects | AI/ML Solutions | Microservices Architecture' }
 ];
