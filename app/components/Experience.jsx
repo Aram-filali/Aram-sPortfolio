@@ -12,7 +12,7 @@ const experienceData = [
         title: 'Full-Stack Developer',
         company: 'ONRTECH - Estatias Multi-Tenant SaaS Site Generator',
         location: 'France, Remote',
-        dateRange: 'Jan 2026 - May 2026',
+        dateRange: 'Jan 2025 - May 2025',
         description: 'Engineered a SaaS platform that lets property managers launch booking websites instantly handling payments, bookings, and calendar syncing automatically, while saving hosts 15-30% on OTA commissions.',
         achievements: [
             'Architected 9 NestJS microservices (API Gateway, Site Generator, Booking ..) coordinating core platform features',
@@ -22,7 +22,7 @@ const experienceData = [
             'Built secure multi-tenant authentication (JWT + Firebase) with role-based access controls ensuring property isolation and data security'
         ],
         technologies: [
-            'NestJS', 'TypeScript', 'Next.js', 'React', 'Tailwind CSS','Microservices Architecture', 'EJS Templates', 'Stripe Connect', 'MongoDB', 'Mongoose', 'JWT Authentication', 'API Gateway Pattern', 'MongoDB', 'Mongoose', 'Firebase','SMTP', 'Git', 'Github', 'Vercel'
+            'NestJS', 'TypeScript', 'Next.js', 'React', 'Tailwind CSS', 'Microservices Architecture', 'EJS Templates', 'Stripe Connect', 'MongoDB', 'Mongoose', 'JWT Authentication', 'API Gateway Pattern', 'MongoDB', 'Mongoose', 'Firebase', 'SMTP', 'Git', 'Github', 'Vercel'
         ]
     }
 ];
