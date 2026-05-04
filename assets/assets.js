@@ -80,6 +80,17 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'QueryMind - Natural Language to SQL Translator',
+        description: 'Design of a Natural Language to SQL translator (QueryMind) allowing users to query a database without any technical skills.',
+        bgImage: '/query.png',
+        link: 'https://github.com/Aram-filali/QueryMind.git',
+        technologies: ['Python', 'FastAPI', 'Ollama (Mistral)', 'React', 'Vanilla JS', 'CSS3', 'HTML5'],
+        details: [
+            'Privacy-First & 100% Local Architecture: Integration of open-source LLMs (Mistral 7B via Ollama) preventing any leak of sensitive data schemas to third-party cloud APIs.',
+            'Full-Stack Development: Robust asynchronous API developed in Python/FastAPI, coupled with a fluid, dark-mode user interface integrating syntax highlighting (Vanilla JS/CSS).'
+        ]
+    },
+    {
         title: 'Estatias - Multi-Tenant SaaS Site Generator',
         description: 'Enables property managers to launch their own booking websites in minutes automating reservations, payments, and marketing without the expensive OTA commissions.',
         bgImage: '/work-4.png',
@@ -93,6 +104,7 @@ export const workData = [
             'Multi-tenant architecture ensures data security and fast, isolated deployments'
         ]
     },
+    /*
     {
         title: 'AI Sales Assistant - Intelligent Chatbot & Lead Capture',
         description: 'Advanced RAG chatbot that automatically captures and qualifies leads through intelligent conversation integrating semantic search, NLP, and real-time scoring without manual intervention.',
@@ -107,6 +119,7 @@ export const workData = [
             'Production-grade deployment: FastAPI backend, React 18 frontend, PostgreSQL 15 with seamless Alembic migrations'
         ]
     },
+    */
     {
         title: 'Syntra.ai - Meeting Intelligence Platform',
         description: 'Transforms meeting recordings into actionable intelligence automatically transcribing, analyzing, and extracting decisions, tasks, and key insights without manual effort.',
@@ -119,17 +132,6 @@ export const workData = [
             'Zoom OAuth 2.0 integration with automatic token refresh ensures seamless authentication and secure data sync',
             'Celery/Redis pipeline enables asynchronous processing allowing meetings up to 4 hours to be analyzed in minutes',
             'Participants automatically receive email alerts with their action items and meeting summaries post-call'
-        ]
-    },
-    {
-        title: 'QueryMind - Natural Language to SQL Translator',
-        description: 'Design of a Natural Language to SQL translator (QueryMind) allowing users to query a database without any technical skills.',
-        bgImage: '/query.png',
-        link: 'https://github.com/Aram-filali/QueryMind.git',
-        technologies: ['Python', 'FastAPI', 'Ollama (Mistral)', 'React', 'Vanilla JS', 'CSS3', 'HTML5'],
-        details: [
-            'Privacy-First & 100% Local Architecture: Integration of open-source LLMs (Mistral 7B via Ollama) preventing any leak of sensitive data schemas to third-party cloud APIs.',
-            'Full-Stack Development: Robust asynchronous API developed in Python/FastAPI, coupled with a fluid, dark-mode user interface integrating syntax highlighting (Vanilla JS/CSS).'
         ]
     },
     {

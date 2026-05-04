@@ -13,7 +13,7 @@
       "greeting": "Hello, I am",
       "name": "Aram Filali",
       "title": "Software Engineering Student",
-      "description": "Software Engineering student specializing in Full-Stack development and artificial intelligence, seeking a 2-month software development internship starting June 2026. Passionate about modern architectures, generative AI integration, and SaaS platform development.",
+      "description": "Software Engineering student specializing in Full-Stack development and artificial intelligence, seeking a summer internship in software engineering starting June 2026. Passionate about modern architectures, generative AI integration, and SaaS platform development.",
       "location": "Monastir, Tunisia",
       "contactMe": "Contact me",
       "linkedIn": "My CV"
@@ -24,15 +24,15 @@
       "bioDescription": "Show my information",
       "fullName": "Full Name: Aram Filali",
       "location": "Location: Monastir, Tunisia",
-      "status": "Status: Software Engineering Student (ISIMA 2025-Present)",
-      "background": "Background: BS Software Engineering (ISIMM 2022-2025)",
+      "status": "Status: Software Engineering Student (ISIMM 2025-Present)",
+      "background": "Background: BS Software Engineering (ISIMa 2022-2025)",
       "availability": "Status: Available for remote opportunities",
       "skillsFetch": "View tech stack",
       "skillsLabel": "$ skills --tech-stack",
       "skillsDescription": "See my skills",
-      "languages": "Languages: C++ | Python | JavaScript | TypeScript | PHP | SQL",
+      "languages": "Languages: C++ | Python | JavaScript | TypeScript | React | PHP | SQL",
       "webDev": "Web Dev: Next.js | React | NestJS | Node.js | FastAPI | REST APIs",
-      "aiMl": "AI/ML: LangChain | BERT | RAG | Prompt Engineering | LLMs",
+      "aiMl": "AI/ML: LangChain | BERT | Prompt Engineering | LLMs",
       "databases": "Databases: MongoDB | PostgreSQL | MySQL | Firebase",
       "cloudDevops": "Cloud & DevOps: Git | Docker | Vercel | Render",
       "contactInfo": "Contact info",
@@ -102,16 +102,12 @@
     },
     "projectsData": [
       {
-        "title": "QueryMind - Natural Language to SQL",
-        "description": "Design of a Natural Language to SQL translator allowing users to query databases without technical skills via a 100% local, Privacy-First architecture."
+        "title": "QueryMind - Natural Language to SQL Translator",
+        "description": "Design of a Natural Language to SQL translator (QueryMind) allowing users to query a database without any technical skills."
       },
       {
         "title": "Estatias - Multi-Tenant SaaS Site Generator",
         "description": "Enables property managers to launch their own booking websites in minutes, automating reservations, payments, and marketing without the expensive OTA commissions."
-      },
-      {
-        "title": "AI Sales Assistant - Intelligent Chatbot & Lead Capture",
-        "description": "Advanced RAG chatbot that automatically captures and qualifies leads through intelligent conversation, integrating semantic search, NLP, and real-time scoring without manual intervention."
       },
       {
         "title": "Syntra.ai - Meeting Intelligence Platform",
@@ -130,12 +126,12 @@
       "title": "Full-Stack Developer",
       "company": "ONRTECH - Estatias Multi-Tenant SaaS Site Generator",
       "location": "France, Remote",
-      "dateRange": "Jan 2026 - May 2026",
+      "dateRange": "Jan 2025 - May 2025",
       "description": "Engineered a SaaS platform that lets property managers launch booking websites instantly, handling payments, bookings, and calendar syncing automatically, while saving hosts 15-30% on OTA commissions.",
       "achievements": [
         "Architected 9 NestJS microservices (API Gateway, Site Generator, Booking ..) coordinating core platform features",
         "Built dynamic website generator using EJS templates + Next.js that deploys customized sites on-demand with automatic port allocation and lifecycle management",
-        "Implemented AI-powered SEO module generating property descriptions 10x faster, integrated with real-time calendar synchronization (node-ical + Puppeteer)",
+        "Implemented AI-powered SEO module generating property descriptions 10x faster, integrated with real-time calendar synchronization",
         "Deployed Stripe Connect infrastructure enabling automatic payment processing and revenue distribution to hosts with full financial tracking",
         "Built secure multi-tenant authentication (JWT + Firebase) with role-based access controls ensuring property isolation and data security"
       ]
@@ -144,8 +140,8 @@
       {
         "id": 0,
         "details": [
-          "Privacy-First & 100% Local Architecture: Integration of open-source LLMs (Mistral 7B via Ollama) preventing any leakage of sensitive data schemas to third-party cloud APIs.",
-          "Full-Stack Development: Robust asynchronous API developed in Python/FastAPI, coupled with a fluid dark-mode user interface integrating syntax highlighting (Vanilla JS/CSS)."
+          "Privacy-First & 100% Local Architecture: Integration of open-source LLMs (Mistral 7B via Ollama) preventing any leak of sensitive data schemas to third-party cloud APIs.",
+          "Full-Stack Development: Robust asynchronous API developed in Python/FastAPI, coupled with a fluid, dark-mode user interface integrating syntax highlighting (React/Vanilla JS/CSS)."
         ]
       },
       {
@@ -159,17 +155,7 @@
         ]
       },
       {
-        "id": 2,
-        "details": [
-          "RAG pipeline powered by FAISS vector database achieving 95%+ accuracy in lead extraction and intent recognition",
-          "Multi-tenant architecture with JWT authentication and 115+ unit tests enforcing SOLID principles and code quality",
-          "NLP-driven conversation engine automatically captures contact info and qualification data in real-time without forms",
-          "Real-time lead scoring system analyzes conversation patterns to identify high-intent prospects automatically",
-          "Production-grade deployment: FastAPI backend, React 18 frontend, PostgreSQL 15 with seamless Alembic migrations"
-        ]
-      },
-      {
-        "id": 3,
+        "id": 1,
         "details": [
           "Users connect Zoom → Platform automatically captures and transcribes all meetings with 85%+ accuracy",
           "4 specialized LLM agents work in parallel: summarization, action extraction, decision tracking, and Q&A generation",
@@ -179,7 +165,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 2,
         "details": [
           "Candidates upload resumes → Platform instantly generates AI-powered profile critiques and personalizes interview simulations",
           "8+ coordinated microservices handle CV analysis, profile optimization, HR/technical interview simulations with real-time AI feedback",
@@ -189,7 +175,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": 3,
         "details": [
           "Users upload CSV/Excel → AI pipeline automatically processes feedback in real-time with zero manual intervention",
           "Multilingual BERT engine detects 3 sentiments (Positive/Neutral/Negative) with simultaneous keyword extraction from customer feedback",
@@ -214,7 +200,7 @@
       "greeting": "Bonjour, je suis",
       "name": "Aram FILALI",
       "title": "Étudiante Ingénieure en Génie Logiciel",
-      "description": "Étudiante ingénieure spécialisée en développement Full-Stack et intelligence artificielle, à la recherche d'un stage de 2 mois en développement logiciel à partir de juin 2026. Passionnée par les architectures modernes, l'intégration d'IA générative et le développement de plateformes SaaS.",
+      "description": "Étudiante ingénieure spécialisée en développement Full-Stack et intelligence artificielle, à la recherche d'un stage d'été en développement logiciel à partir de juin 2026. Passionnée par les architectures modernes, l'intégration d'IA générative et le développement de plateformes SaaS.",
       "location": "Monastir, Tunisie",
       "contactMe": "Me contacter",
       "linkedIn": "Mon CV"
@@ -231,9 +217,9 @@
       "skillsFetch": "Voir la pile technologique",
       "skillsLabel": "$ skills --tech-stack",
       "skillsDescription": "Voir mes compétences",
-      "languages": "Langages: C++ | Python | JavaScript | TypeScript | PHP | SQL",
+      "languages": "Langages: C++ | Python | JavaScript | TypeScript | React | PHP | SQL",
       "webDev": "Dev Web: Next.js | React | NestJS | Node.js | FastAPI | REST APIs",
-      "aiMl": "IA/ML: LangChain | BERT | RAG | Prompt Engineering | LLMs",
+      "aiMl": "IA/ML: LangChain | BERT | Prompt Engineering | LLMs",
       "databases": "Bases de données: MongoDB | PostgreSQL | MySQL | Firebase",
       "cloudDevops": "Cloud & DevOps: Git | Docker | Vercel | Render | AWS",
       "contactInfo": "Infos de contact",
@@ -304,15 +290,11 @@
     "projectsData": [
       {
         "title": "QueryMind - Traducteur Langage Naturel vers SQL",
-        "description": "Conception d'un traducteur Langage Naturel vers SQL permettant d'interroger une base de données sans aucune compétence technique via une architecture 100% locale et Privacy-First."
+        "description": "Conception d'un traducteur Langage Naturel vers SQL (QueryMind) permettant d'interroger une base de données sans aucune compétence technique."
       },
       {
         "title": "Estatias - Générateur SaaS Multi-Locataires",
         "description": "Permet aux gestionnaires de propriétés de lancer leurs propres sites web de réservation en minutes, automatisant les réservations, les paiements et le marketing sans les commissions OTA coûteuses."
-      },
-      {
-        "title": "Assistant de Ventes IA - Chatbot Intelligent & Capture de Leads",
-        "description": "Chatbot RAG avancé qui capture et qualifie automatiquement les leads par conversation intelligente, intégrant la recherche sémantique, le NLP et l'évaluation en temps réel sans intervention manuelle."
       },
       {
         "title": "Syntra.ai - Plateforme d'Intelligence Réunion",
@@ -331,7 +313,7 @@
       "title": "Développeur Full-Stack",
       "company": "ONRTECH - Générateur SaaS Multi-Locataires Estatias",
       "location": "France, Télétravail",
-      "dateRange": "Jan 2026 - Mai 2026",
+      "dateRange": "Jan 2025 - Mai 2025",
       "description": "Conçu une plateforme SaaS permettant aux gestionnaires de propriétés de lancer des sites de réservation instantanément, automatisant les paiements, les réservations et la synchronisation calendaire, tout en réduisant les commissions OTA de 15-30% pour les hôtes.",
       "achievements": [
         "Architecture de 9 microservices NestJS (Passerelle API, Générateur de sites, Réservation ..) coordonnant les fonctionnalités principales",
@@ -346,7 +328,7 @@
         "id": 0,
         "details": [
           "Architecture \"Privacy-First\" & 100% Locale : Intégration de LLM open-source (Mistral 7B via Ollama) empêchant toute fuite de schémas de données sensibles vers des API cloud tierces.",
-          "Développement Full-Stack : API asynchrone robuste développée en Python/FastAPI, couplée à une interface utilisateur fluide, en dark-mode, intégrant la coloration syntaxique (Vanilla JS/CSS)."
+          "Développement Full-Stack : API asynchrone robuste développée en Python/FastAPI, couplée à une interface utilisateur fluide, en dark-mode, intégrant la coloration syntaxique (React/Vanilla JS/CSS)."
         ]
       },
       {
@@ -360,17 +342,7 @@
         ]
       },
       {
-        "id": 2,
-        "details": [
-          "Pipeline RAG alimenté par la base de données vectorielle FAISS atteignant une précision de 95%+ dans l'extraction des pistes et la reconnaissance d'intentionnalité",
-          "Architecture multi-locataire avec authentification JWT et 115+ tests unitaires appliquant les principes SOLID et la qualité du code",
-          "Moteur de conversation alimenté par le NLP capturant automatiquement les informations de contact et les données de qualification en temps réel sans formes",
-          "Système de notation des pistes en temps réel analysant les modèles de conversation pour identifier automatiquement les prospects à haut degré d'intention",
-          "Déploiement de qualité production: backend FastAPI, frontend React 18, PostgreSQL 15 avec migrations Alembic transparentes"
-        ]
-      },
-      {
-        "id": 3,
+        "id": 1,
         "details": [
           "Les utilisateurs connectent Zoom → La plateforme capture et transcrit automatiquement toutes les réunions avec une précision de 85%+",
           "4 agents LLM spécialisés travaillent en parallèle: résumé, extraction d'actions, suivi des décisions et génération de questions-réponses",
@@ -380,7 +352,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 2,
         "details": [
           "Les candidats téléchargent leur CV → La plateforme génère instantanément des critiques de profil alimentées par l'IA et personnalise les simulations d'entretien",
           "8+ microservices coordonnés gèrent l'analyse des CV, l'optimisation des profils, les simulations d'entretien RH/techniques avec rétroaction IA en temps réel",
@@ -390,10 +362,10 @@
         ]
       },
       {
-        "id": 5,
+        "id": 3,
         "details": [
           "Les utilisateurs téléchargent un fichier CSV/Excel → Le pipeline IA traite automatiquement les commentaires en temps réel sans intervention manuelle",
-          "Le moteur BERT multilingue détecte 3 sentiments (Positif/Neutre/Négatif) with simultaneous keyword extraction from customer feedback",
+          "Le moteur BERT multilingue détecte 3 sentiments (Positif/Neutre/Négatif) avec extraction simultanée de mots-clés des commentaires des clients",
           "Modèle freemium: les utilisateurs anonymes testent l'outil, la connexion déverrouille l'historique illimité et les capacités d'analyse illimitées",
           "Architecture multi-locataire avec authentification sécurisée par e-mail/mot de passe JWT protégeant les données sensibles des clients",
           "Le tableau de bord historique permet aux équipes de suivre les tendances de sentiment au fil du temps et d'identifier les modèles récurrents des commentaires"
