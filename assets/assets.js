@@ -104,7 +104,6 @@ export const workData = [
             'Multi-tenant architecture ensures data security and fast, isolated deployments'
         ]
     },
-    /*
     {
         title: 'AI Sales Assistant - Intelligent Chatbot & Lead Capture',
         description: 'Advanced RAG chatbot that automatically captures and qualifies leads through intelligent conversation integrating semantic search, NLP, and real-time scoring without manual intervention.',
@@ -119,7 +118,6 @@ export const workData = [
             'Production-grade deployment: FastAPI backend, React 18 frontend, PostgreSQL 15 with seamless Alembic migrations'
         ]
     },
-    */
     {
         title: 'Syntra.ai - Meeting Intelligence Platform',
         description: 'Transforms meeting recordings into actionable intelligence automatically transcribing, analyzing, and extracting decisions, tasks, and key insights without manual effort.',
