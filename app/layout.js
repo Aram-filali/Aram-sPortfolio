@@ -1,6 +1,5 @@
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
-import { LanguageProvider } from "@/app/context/LanguageContext";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,14 +23,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning className={`scroll-smooth dark ${inter.variable} ${plusJakarta.variable}`}>
+    <html lang="fr" suppressHydrationWarning className={`scroll-smooth dark ${inter.variable} ${plusJakarta.variable}`}>
       <body
         className={`${inter.className} antialiased leading-relaxed
         overflow-x-hidden bg-white dark:bg-darkTheme dark:text-white`}
       >
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        {children}
       </body>
     </html>
   );

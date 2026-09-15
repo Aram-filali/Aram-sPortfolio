@@ -1,14 +1,25 @@
 'use client';
 
-import { useContext } from 'react';
-import { LanguageContext } from '@/app/context/LanguageContext';
+import translations from '@/app/i18n/translations.json';
 
 export const useTranslation = () => {
-  const context = useContext(LanguageContext);
-  
-  if (!context) {
-    throw new Error('useTranslation must be used within LanguageProvider');
-  }
-  
-  return context;
+  const t = (key) => {
+    const keys = key.split('.');
+    
+    // Toujours utiliser les traductions en français
+    let value = translations['fr'];
+    
+    for (const k of keys) {
+      if (!value) return key;
+      value = value[k];
+    }
+    
+    return value || key;
+  };
+
+  return {
+    language: 'fr',
+    toggleLanguage: () => {},
+    t
+  };
 };
