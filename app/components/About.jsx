@@ -29,7 +29,6 @@ const About = ({ isDarkMode }) => {
       description: t('about.bioDescription'),
       output: [
         { type: 'output', text: `> ${t('about.fullName')}` },
-        { type: 'output', text: `> ${t('about.location')}` },
         { type: 'output', text: `> ${t('about.status')}` },
         { type: 'output', text: `> ${t('about.background')}` },
         { type: 'output', text: `> ${t('about.availability')}` }

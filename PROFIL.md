@@ -4,7 +4,6 @@
 
 Étudiant en ingénierie logicielle passionné par le développement web et l'intelligence artificielle. Je suis actuellement en formation au sein de l'**ISIMA** (2025-Present) après avoir complété mon diplôme de base en génie logiciel à l'**ISIMM** (2022-2025).
 
-Localisation: **Monastir, Tunisie**  
 Status: **Disponible pour des opportunités en télétravail**
 
 ---

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from "framer-motion"
-import { MapPin, Download, Mail } from "lucide-react"
+import { Download, Mail } from "lucide-react"
 import { useTranslation } from "@/app/hooks/useTranslation";
 
 const Header = () => {
@@ -41,17 +41,6 @@ const Header = () => {
           >
             {t('header.description')}
           </motion.p>
-
-          {/* Location */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.8 }}
-            className='flex items-center justify-center lg:justify-start gap-2 text-gray-600 dark:text-gray-400'
-          >
-            <MapPin className='w-5 h-5 text-[#1a365d] dark:text-cyan-400' />
-            <span className='text-base font-medium'>{t('header.location')}</span>
-          </motion.div>
 
           {/* Buttons */}
           <motion.div
